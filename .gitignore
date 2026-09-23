@@ -1,0 +1,32 @@
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment folders
+env/
+venv/
+.venv/
+ENV/
+
+# IDE and editor settings
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Output folders (QR codes generated in batch mode)
+batch_output/
+qrcodes/
+
+# Example images (optional, if you don’t want to track generated QR codes)
+examples/*.png
+examples/*.jpg
+examples/*.svg
